@@ -56,8 +56,8 @@ export default defineConfig({
   },
   srcDir: "src",      // I changed the Source Directory from root to src,
   cleanUrls: true,    // Hosting on GitHub pages which automatically supports generating "clean" URLs
-  lastUpdated: true
-  // base: '/docs/'   // pretty sure i don't need this?
+  lastUpdated: true,
+  base: '/developer-handbook/'
 })
 
 // Link to deploy website later: https://vitepress.dev/guide/deploy
