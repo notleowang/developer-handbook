@@ -20,4 +20,4 @@ I am generally pretty forgetful and so jotting down all my notes somewhere is ve
 
 ## Ready to Explore?
 
-Start out with the [Guide](/guide) page which explains how to navigate through the handbook.
+Start out with the [Guide](/intro/guide) page which explains how to navigate through the handbook.
