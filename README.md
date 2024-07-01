@@ -1,4 +1,4 @@
-# developer_handbook
+# developer-handbook
 
 ### About The Project
 A website for my personal notes and programming-related stuff in a documentation format.
