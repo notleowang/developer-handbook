@@ -59,5 +59,3 @@ export default defineConfig({
   lastUpdated: true,
   base: '/developer-handbook/'
 })
-
-// Link to deploy website later: https://vitepress.dev/guide/deploy
