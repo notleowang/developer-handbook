@@ -1,50 +1,92 @@
 ---
 prev: false
 next: false
+outline: deep
 ---
 
-# Machine Learning Concepts
+# Basic Concepts
 
-Currently, mostly comprised of concepts and topics I've learned in University.
+Very basic concepts in Machine Learning. Heavily based on my University courses.
 
 ## Terminology
-- Rows are referred to as "examples".
-- Columns are referred to as "features".
+
+- **Examples**
+
+  Refers to the rows of a dataset.
+
+- **Features**
+
+  Refers to the columns of a dataset.
 
 ## Data
 
+### Types of Data
+
+- **Categorical**
+
+  Data that can be identified by names or labels. For example, gender, colors, brands, etc.
+
+- **Numerical**
+
+  Data that have numerical values that can be measured. For example, height, weight, kilometers per hour, etc.
+
+
 ### Data Cleaning
-Some reasons that the data may not be clean:
+
+There may be reasons that the data may not be clean.
 - Noise
 - Outliers
 - Missing values
 - Duplicated data
 
 ## Features
-Typically referred to the **columns** of a dataset.
 
-### Feature Aggregation
-- To combine features to form new features.
+Here are some typical ways to modify features in data.
 
-| VAN | BUR | SUR | EDM | CAL | &nbsp; | BC | AB |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0 | 0 | 0 | 0 | -> | 1 | 0 |
-| 0 | 1 | 0 | 0 | 0 | -> | 1 | 0 |
+### Aggregation
 
-### Feature Transformation
-- Mathematical transformation:
-  - **Discretization** (binning): turning numerical data into categorical
+To combine features to form new features.
 
-| Age | &nbsp; | <20 | ≥20, <25 | ≥25 |
+::: details **Example: Using Cities and Provinces in Canada**
+**Before**
+| VAN | BUR | SUR | EDM | CAL |
 | --- | --- | --- | --- | --- |
-| 23 | -> | 0 | 1 | 0 |
-| 23 | -> | 0 | 1 | 0 |
-| 22 | -> | 0 | 1 | 0 |
-| 25 | -> | 0 | 0 | 1 |
-| 19 | -> | 1 | 0 | 0 |
-| 22 | -> | 0 | 1 | 0 |
+| 1 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 |
 
-### Feature Selection
-- To remove features that are not relevant to the task.
+**After**
+| BC | AB |
+| --- | --- |
+| 1 | 0 |
+| 1 | 0 |
+:::
 
-## Supervised Learning
+### Transformation
+
+**Discretization** (binning): turning numerical data into categorical
+
+::: details **Example: Using Ages of People**
+**Before**
+| Age |
+| --- |
+| 23 |
+| 23 |
+| 22 |
+| 25 |
+| 19 |
+| 22 |
+
+**After**
+| <20 | ≥20, <25 | ≥25 |
+| --- | --- | --- |
+| 0 | 1 | 0 |
+| 0 | 1 | 0 |
+| 0 | 1 | 0 |
+| 0 | 0 | 1 |
+| 1 | 0 | 0 |
+| 0 | 1 | 0 |
+:::
+
+### Selection
+
+To remove features that are not relevant to the task.

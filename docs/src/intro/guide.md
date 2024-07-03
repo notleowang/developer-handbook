@@ -23,6 +23,10 @@ On the right, there will be what VitePress calls an "Aside" tab. The Aside is a 
 On mobile devices there is no visible aside tab, but rather a collapsable "On this page" menu on the top **right** of the screen.
 :::
 
+## Last Updated
+
+In the lower left corner of some pages, you may see a `Last updated` subtext. This will provide a date and time that the page was last edited by me.
+
 ## Search
 
 The search bar runs a fuzzy full-text search on the entire handbook. It's not very useful LOL but it's there for you if you need it.

@@ -38,7 +38,9 @@ export default defineConfig({
       {
         text: 'Machine Learning',
         items: [
-          { text: 'Concepts', link: '/machine-learning/concepts' }
+          { text: 'Basic Concepts', link: '/machine-learning/concepts' },
+          { text: 'Statistics', link: '/machine-learning/statistics' },
+          { text: 'Supervised Learning', link: '/machine-learning/supervised-learning' }
         ],
         collapsed: false
       }
@@ -57,5 +59,8 @@ export default defineConfig({
   srcDir: "src",      // I changed the Source Directory from root to src,
   cleanUrls: true,    // Hosting on GitHub pages which automatically supports generating "clean" URLs
   lastUpdated: true,
-  base: '/developer-handbook/'
+  base: '/developer-handbook/',
+  markdown: {
+    math: true
+  }
 })
