@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.Cif60x00.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"software-dev/oop.md","filePath":"software-dev/oop.md","lastUpdated":null}'),a={name:"software-dev/oop.md"};function r(s,n,p,c,d,f){return o(),t("div")}const l=e(a,[["render",r]]);export{i as __pageData,l as default};
