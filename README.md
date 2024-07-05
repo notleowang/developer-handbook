@@ -5,6 +5,9 @@ A website for my personal notes and programming-related stuff in a documentation
 
 ### Built With
 
+[![VitePress](https://img.shields.io/badge/VitePress-0f0f0f?style=for-the-badge&logo=vite)](https://vitepress.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-0f0f0f?style=for-the-badge&logo=node.js)](https://nodejs.org/en)
+
 ## Getting Started
 Follow these instructions if you wish to run website locally.
 
@@ -32,3 +35,6 @@ npm install
 ```sh
 npm run docs:dev
 ```
+
+## Acknowledgements
+- [ImgShields](https://shields.io/) for the badges.
